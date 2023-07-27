@@ -32,6 +32,8 @@ public class Main {
             usersInput = scanner.nextInt();
 
             if (usersInput == -1) {
+                System.out.println("\n###############\n");
+                showScores(userScore, computerScore);
                 System.out.println("See You Later ^_^");
                 break;
             }
